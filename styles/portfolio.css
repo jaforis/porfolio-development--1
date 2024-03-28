@@ -103,12 +103,29 @@ main{
     margin-top: 200px;
 }
 .resume-container{
-    display: flex;
-    justify-content: space-between;
+  display: flex;
 }
 .resume-title{
     font-size: 25px;
 }
 .resume-column{
     padding: 150px;
+}
+.btn{
+   margin: 100px 100px;
+    text-align: center;
+}
+.footer{
+    margin-top: 100px 100px;
+    display: flex;
+    gap: 100px;
+}
+footer {
+    padding: 130px 230px;
+    background-color: antiquewhite;
+}
+.contact input, textarea{
+    display: block;
+    margin-bottom: 25px;
+    padding: 18px 35px;
 }
